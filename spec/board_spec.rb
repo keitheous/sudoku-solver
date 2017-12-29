@@ -14,7 +14,10 @@ RSpec.describe Board do
     end
 
     it 'creates 81 grids in total' do
-      expect(board.grids.size).to eq(81)
+      grids = []
+      board.quadrants.each {|quadrant| quadrant.grids.each {|grid| grids << grid}}
+
+      expect(grids.size).to eq(81)
     end
   end
 end
