@@ -1,4 +1,5 @@
 require "bundler/setup"
+require "board"
 require "sudoku_solver"
 
 RSpec.configure do |config|
