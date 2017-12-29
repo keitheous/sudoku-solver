@@ -1,4 +1,4 @@
-class BoardLayout
+class Layout
   QUADRANTS = %w(a b c d e f g h i).freeze
 
   GRIDS = %w(
