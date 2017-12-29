@@ -1,6 +1,7 @@
 require "bundler/setup"
 require "board"
 require 'grid'
+require 'quadrant'
 require "sudoku_solver"
 
 RSpec.configure do |config|
