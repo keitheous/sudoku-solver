@@ -7,4 +7,13 @@ class Grid
     @found = found
     @possible_values = ('1'...'10').to_a
   end
+
+  def update_grid(value)
+    @possible_values.delete(value) if @possible_values.include?(value)
+
+    if @possible_values.size == 1
+      @value = @possible_values.first
+      @found = true
+    end
+  end
 end
