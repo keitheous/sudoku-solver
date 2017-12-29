@@ -2,7 +2,7 @@ require 'spec_helper'
 require 'layout'
 
 RSpec.describe Quadrant do
-  describe 'initialize' do
+  describe ".initialize" do
       context 'creating quadrant' do
         quadrant_a = Quadrant.new('a')
 

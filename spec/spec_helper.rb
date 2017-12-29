@@ -1,8 +1,9 @@
 require "bundler/setup"
-require "board"
 require 'grid'
 require 'quadrant'
 require "sudoku_solver"
+require 'layout'
+require 'board'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

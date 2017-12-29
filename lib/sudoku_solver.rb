@@ -1,6 +1,5 @@
 require "sudoku_solver/version"
-require "board"
-require 'grid'
+require 'board'
 
 module SudokuSolver
   # Your code goes here...
